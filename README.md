@@ -66,7 +66,18 @@ To reproduce the results from our experiments simply run:
 ```
 
 ### How To Run On Our Created Dataset
+First download our created dataset [here](https://drive.google.com/file/d/1E16XFtkoqFy7EzhlDq3pVp3D0J40OU0E/view?usp=drive_link).
+And place the dataset in the data folder. 
 
+To train and run the shoe scene, run: 
+```
+python run_nerf.py --config configs/shoe.txt
+```
+
+To train and run the tree scene, run: 
+```
+python run_nerf.py --config configs/tree.txt
+```
 
 
 ## Method
