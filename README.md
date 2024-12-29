@@ -66,10 +66,8 @@ To reproduce the results from our experiments simply run:
 ```
 
 ### How To Run On Our Created Dataset
-First download our created dataset [here](https://drive.google.com/file/d/1E16XFtkoqFy7EzhlDq3pVp3D0J40OU0E/view?usp=drive_link).
-And place the dataset in the data folder. 
-If you’re interested in learning how to create your own datasets.
-Please refer to the original [NeRF documentation](https://github.com/bmild/nerf?tab=readme-ov-file#generating-poses-for-your-own-scenes).  
+First download our created dataset [here](https://drive.google.com/file/d/1E16XFtkoqFy7EzhlDq3pVp3D0J40OU0E/view?usp=drive_link). and place the dataset in the data folder.   
+If you’re interested in learning how to create your own datasets. Please refer to the original [NeRF documentation](https://github.com/bmild/nerf?tab=readme-ov-file#generating-poses-for-your-own-scenes).  
 
 #### Shoe Dataset  
 To train the model on the shoe dataset, use the following command:  
