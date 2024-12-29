@@ -68,16 +68,24 @@ To reproduce the results from our experiments simply run:
 ### How To Run On Our Created Dataset
 First download our created dataset [here](https://drive.google.com/file/d/1E16XFtkoqFy7EzhlDq3pVp3D0J40OU0E/view?usp=drive_link).
 And place the dataset in the data folder. 
+If you’re interested in learning how to create your own datasets.
+Please refer to the original [NeRF documentation](https://github.com/bmild/nerf?tab=readme-ov-file#generating-poses-for-your-own-scenes).  
 
-To train and run the shoe scene, run: 
+#### Shoe Dataset  
+To train the model on the shoe dataset, use the following command:  
 ```
-python run_nerf.py --config configs/shoe.txt
-```
+python run_nerf.py --config configs/shoe.txt  
+```  
+After training for 200,000 iterations (~12 hours on a single 2080 Ti), you can see the results:  
+![Shoe Video](./imgs/shoe_demo.gif)
 
-To train and run the tree scene, run: 
+#### Tree Dataset  
+To train the model on the tree dataset, use the following command:  
 ```
-python run_nerf.py --config configs/tree.txt
-```
+python run_nerf.py --config configs/tree.txt  
+```  
+After training for 200,000 iterations (~9 hours on a single 2080 Ti), you can see the results:  
+![Tree Video](./imgs/tree_demo.gif)
 
 
 ## Method
